@@ -1,0 +1,75 @@
+conditional exercises.html
+
+</html><!DOCTYPE html>
+<html>
+ 
+<head>
+<title>javascript.info exercises</title>
+</head>
+ 
+<body>
+
+<h1>xxxx</h1>
+
+  <script>
+/*
+	// simple string check
+  	let result = prompt("What is the \"official\" name of javaScript?", "")
+  	if (result == "ECMAScript") {
+  		alert("Right!")
+  	} 	else {
+  		alert("Didn\'t know? ECMAScript!");
+  	}
+*/
+/*
+	//checking a number
+    let result = prompt("pick a number: ", "0")
+  	if (result > 0) {
+  		alert("1")
+  	}	else if (result < 0){
+  		alert("-1")
+  	} 	else {
+  		alert("0");
+  	}
+*/
+
+/*
+	// simple username & password check
+	let login = prompt("Enter username", "")
+	if (login == "") {
+		alert("Canceled.")
+	}	else if (login == null) {
+		alert("Canceled.")
+	}	else if (login != "Admin") {
+		alert("I don\'t know you")
+	}	else {
+			let password = prompt("Enter your password")
+			if (password == "TheMaster"){
+				alert("Welcome!")
+			}	else if (password == "") {
+				alert("Canceled.")
+			}	else if (password == null) {
+				alert ("Canceled.")
+			}	else {
+				alert("wrong password")
+			}
+	}
+*/
+
+/*
+	// using ternary operator
+	let login = prompt("please enter your status", "")
+
+	let message = (login == "Employee") ? "Hello" : 
+		(login == "Director") ? "Greetings" :
+		(login == "") ? "No login" :
+		"invalid status";
+
+	alert( message );
+
+*/
+
+
+  </script>
+
+</body>
